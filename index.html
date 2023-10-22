@@ -4,24 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pets</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Adorable Pets</title>
 </head>
 
 <body> 
-    <a href="#main" id="skip">Skip to main content</a>
+    <div class="skip"><a href="">Skip to Main Content</a></div>
     
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="current">Home</a></li>
             <li><a href="travel.html">Travel</a></li>
             <li><a href="recipes.html">Recipes</a></li>
         </ul>
     </nav>
 
+    
+
     <main id = "main">
+        <header><h1>Meet These Friendly Pets!</h1></header>
         <div>
             <h2> Finn </h2> 
-            <img src ="images/pets/Finn_Halloween.jpg" width = "400" alt = "Finn wears a bat costume for halloween"> 
+            <div class="pet-main">
+                <img src ="images/pets/Finn_Halloween.jpg" width = "400" alt = "Finn wears a bat costume for halloween"> 
+            </div>
        
             <p>Finn is a 7 year old grey cat. I feel like no one really knows cat breeds so I'm just gonna go with grey. 
                 He loves doing tricks for treats and his favorite is giving high fives to people. He might as well be a dog 
@@ -31,25 +38,33 @@
                 like he was never a house cat for 7 years.</p> 
 
             <h3>Photo Gallery </h3>
-            <img src="images/pets/Finn_Shlumped.jpg" width ="200" alt = "Finn is exhausted after a long day of absolutely nothing. ">
-            <img src="images/pets/Finn_Kitten.jpg"  width ="200" alt="A few days after we adopted Finn. He's just posing for the camera.">
-            <img src="images/pets/Finn_GOAT.jpg"  width ="200" alt="Finn dressed up as the king he is for Halloween ">
-            <img src="images/pets/Finn_Goldenhr.PNG"  width ="200" alt="Finn showing off his green eyes during golden hour ">
+            <div class="pet-gallery">
+                <img src="images/pets/Finn_Shlumped.jpg" width ="200" alt = "Finn is exhausted after a long day of absolutely nothing. ">
+                <img src="images/pets/Finn_Kitten.jpg"  width ="200" alt="A few days after we adopted Finn. He's just posing for the camera.">
+                <img src="images/pets/Finn_GOAT.jpg"  width ="200" alt="Finn dressed up as the king he is for Halloween ">
+                <img src="images/pets/Finn_Goldenhr.PNG"  width ="200" alt="Finn showing off his green eyes during golden hour ">
+            </div>
         
             <h3>Likes</h3>
-            <ul>
-                <li>Belly rubs</li>
-                <li>Head Rubs</li>
-                <li>Sleeping in cardboard boxes</li>
-            </ul>
+            <div class="pet-list">
+                <ul>
+                    <li>Belly Rubs</li>
+                    <li>Head Rubs</li>
+                    <li>Sleeping in Cardboard Boxes</li>
+                </ul>
+            </div>
+            
 
             <!-- Lauren Rodriguez-->
         </div>
 
         <div>
             <h2>Sofie</h2>
-            <img src="images/pets/sofie1.JPG" width = "400" alt="Beagle mix wearing glasses">
 
+            <div class="pet-main">
+                <img src="images/pets/sofie1.JPG" width = "400" alt="Beagle mix wearing glasses">
+            </div>
+            
             <p>Sofie is a 15-year-old Beagle mix.  Her favorite spot in the house is the living room couch. 
                 She loves to go outside, sometimes too much, leaving us to open the door for her constantly.
                 Sofie loves freshly cut grass, she rolls around in it for hours after it gets cut. </P>
@@ -60,17 +75,21 @@
                 run to her hearts content.</p>
 
             <h3>Photo Gallery</h3>
-            <img src="images/pets/sofie2.JPG" width ="200" alt = "Beagle sitting on favorite couch looking around">
-            <img src="images/pets/sofie3.JPG"  width ="200" alt="Beagle laying down on chair.">
-            <img src="images/pets/sofie4.JPG"  width ="200" alt="Beagle laying next to angry birds pillow ">
-            <img src="images/pets/sofie5.JPG"  width ="200" alt="Beagle with two treats on paws">
-
+            <div class="pet-gallery">
+                <img src="images/pets/sofie2.JPG" width ="200" alt = "Beagle sitting on favorite couch looking around">
+                <img src="images/pets/sofie3.JPG"  width ="200" alt="Beagle laying down on chair.">
+                <img src="images/pets/sofie4.JPG"  width ="200" alt="Beagle laying next to angry birds pillow ">
+                <img src="images/pets/sofie5.JPG"  width ="200" alt="Beagle with two treats on paws">
+            </div>
             <h3>Likes</h3>
-            <ul>
-                <li>Fried eggs</li>
-                <li>Peanut butter</li>
-                <li>bacon strips</li>
-            </ul>
+            <div class="pet-list">
+                <ul>
+                    <li>Fried Eggs</li>
+                    <li>Peanut Butter</li>
+                    <li>Bacon Strips</li>
+                </ul>
+            </div>
+            
 
         <!-- Jacob Timmerman-->
         </div>
@@ -78,8 +97,11 @@
         <div>
             <h2>Biscuit</h2>
 
-            <img src="images/pets/biscuit1.jpeg" alt="Shiba inu sitting in front of pond with stones in the background."
-            width="400">
+            <div class="pet-main">
+                <img src="images/pets/biscuit1.jpeg" alt="Shiba inu sitting in front of pond with stones in the background."
+                            width="400">
+            </div>
+            
 
             <p>
             Biscuit is a 2 year old shiba inu dog. Shiba inus are energetic and playful dogs. Biscuit
@@ -92,27 +114,32 @@
             </p>
 
             <h3>Photo Gallery</h3>
-            <img src="images/pets/biscuit2.jpeg" alt="Biscuit standing in the sunlight." width="200">
-            <img src="images/pets/biscuit3.jpeg" alt="Biscuit smiling for the camera." width="200">
-            <img src="images/pets/biscuit4.jpeg" alt="Biscuit standing near the road." width="200">
-            <img src="images/pets/biscuit5.jpeg" alt="Biscuit sleeping." width="200">
+            <div class="pet-gallery">
+                <img src="images/pets/biscuit2.jpeg" alt="Biscuit standing in the sunlight." width="200">
+                <img src="images/pets/biscuit3.jpeg" alt="Biscuit smiling for the camera." width="200">
+                <img src="images/pets/biscuit4.jpeg" alt="Biscuit standing near the road." width="200">
+                <img src="images/pets/biscuit5.jpeg" alt="Biscuit sleeping." width="200">
+            </div>
 
             <h3>Likes</h3>
-            <ul>
-            <li>Going for walks</li>
-            <li>Swimming</li>
-            <li>Apples</li>
-            </ul>
+            <div class="pet-list">
+               <ul>
+                    <li>Going for Walks</li>
+                    <li>Swimming</li>
+                    <li>Apples</li>
+                </ul> 
+            </div>
+            
 
         <!--Allison Lee-->
         </div>
 
         <div>
-            <header><h1>Pets</h1></header>
-
             <h2>Cheeto (Chicken)</h2>
 
-            <img src="images/pets/cheeto_cattree.jpg" alt="Orange cat hanging paws off a cat tower" width="400">
+            <div class="pet-main">
+                <img src="images/pets/cheeto_cattree.jpg" alt="Orange cat hanging paws off a cat tower" width="400">
+            </div>
 
             <p>Cheeto is a cat who likes to eat a lot and play a lot. He has an obsession with his grandpa (human) 
                 and tries to get outside every single day. If he isn't causing problems, he is usually hiding in a 
@@ -124,24 +151,31 @@
             </p>
 
             <h3>Photo Gallery</h3>
-            <img src="images/pets/cheeto_carpet.jpg" alt="Cheeto laying sideways on the carpet" width="200">
-            <img src="images/pets/cheeto_moon.jpg" alt="Cheeto lying in the sun in a half moon crescent shape" width="200">
-            <img src="images/pets/cheeto_boxes.jpg" alt="Cheeto lying on boxes with one leg hanging off." width="200">
-            <img src="images/pets/cheeto_attack.jpg" alt="Cheeto attacking a hand trying to pet him." width="200">
-
+            <div class="pet-gallery">
+                <img src="images/pets/cheeto_carpet.jpg" alt="Cheeto laying sideways on the carpet" width="200">
+                <img src="images/pets/cheeto_moon.jpg" alt="Cheeto lying in the sun in a half moon crescent shape" width="200">
+                <img src="images/pets/cheeto_boxes.jpg" alt="Cheeto lying on boxes with one leg hanging off." width="200">
+                <img src="images/pets/cheeto_attack.jpg" alt="Cheeto attacking a hand trying to pet him." width="200">
+            </div>
             <h3>Likes</h3>
-            <ul>
-                <li>Treats </li>
-                <li>Exploring</li>
-                <li>His Grandpa</li>
-            </ul>
+            <div class="pet-list">
+                <ul>
+                    <li>Treats </li>
+                    <li>Exploring</li>
+                    <li>His Grandpa</li>
+                </ul>
+            </div>
+            
 
             <!--Divya Shankar-->
         </div>
 
         <div>
             <h2>Lucy</h2>
-            <img src="images/pets/Lucy.JPG" width = "400" alt="Calico with white, orange, and black coloring">
+
+            <div class="pet-main">
+                <img src="images/pets/Lucy.JPG" width = "400" alt="Calico with white, orange, and black coloring">
+            </div>
     
             <p>Lucy is a 17-year-old calico that I've had since I was 5, she has pretty much grown up with me my whole life. 
                 Even though she's old she's still kickin' it and enjoys running around the house at 4am.</P>
@@ -150,17 +184,21 @@
                 along with lots of petting. However, she hates getting her stomach rubbed.</p>
     
             <h3>Photo Gallery</h3>
-            <img src="images/pets/Lucy_upsidedown.JPG" width ="200" alt = "Lucy laying on her back">
-            <img src="images/pets/Lucy_sleeping.JPG"  width ="200" alt="Lucy curled up in her bed sleeping">
-            <img src="images/pets/Lucy_sleepingpt2.JPG"  width ="200" alt="Lucy curled up sleeping">
-            <img src="images/pets/Lucy_laying.JPG"  width ="200" alt="Lucy laying staring at the camera">
+            <div class="pet-gallery">
+                <img src="images/pets/Lucy_upsidedown.JPG" width ="200" alt = "Lucy laying on her back">
+                <img src="images/pets/Lucy_sleeping.JPG"  width ="200" alt="Lucy curled up in her bed sleeping">
+                <img src="images/pets/Lucy_sleepingpt2.JPG"  width ="200" alt="Lucy curled up sleeping">
+                <img src="images/pets/Lucy_laying.JPG"  width ="200" alt="Lucy laying staring at the camera">
+            </div>
     
             <h3>Likes</h3>
-            <ul>
-                <li>Sleeping</li>
-                <li>Food</li>
-                <li>Her bed</li>
-            </ul>
+            <div class="pet-list">
+                <ul>
+                    <li>Sleeping</li>
+                    <li>Food</li>
+                    <li>Her Bed</li>
+                </ul>
+            </div>
 
             <!-- Maggie Holman-->
          </div>
